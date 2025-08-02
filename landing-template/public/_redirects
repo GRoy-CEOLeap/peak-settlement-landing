@@ -1,0 +1,6 @@
+# Redirect quiz traffic to separate quiz deployment
+/quiz/* https://YOUR_QUIZ_NETLIFY_URL/:splat 200
+
+# SPA fallback for all other routes
+/* /index.html 200
+
